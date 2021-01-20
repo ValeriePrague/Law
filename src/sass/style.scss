@@ -1,0 +1,13 @@
+@import 'base/variables';
+* {
+    font-family: 'Dosis','Roboto';
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
