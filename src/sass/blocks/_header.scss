@@ -3,7 +3,9 @@
 		height: 209px;
 		background-color: white;
 	.menu {	
-		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		list-style-type: none;
 		&__link {
 			color: black;
 			font-size: 28px;
@@ -11,23 +13,36 @@
 		}
 
 		&__item {
-			padding-right: 68x;
+			border-right: none;
+			padding-right: 68px;
 				
 
 		}
 	}
 	.left-box-menu {
-		display: flex;
-		justify-content: space-between;
-		list-style-type: none;
-		width: 400px;
+		position: fixed;
+		width: 100%;
 		height: 33px;
+		background-color: white;
 		left: 158px;
 		top: 73px;
 		margin: 0;
 		}
 
-
+	.right-box-menu {
+		position: fixed;
+		width: 100%;
+		height: 33px;
+		background-color: white;
+		width: 100%;
+		height: 33px;
+		left: 894px;
+		right: 256px;
+		top: 73px;
+		margin: 0;
+	
+	}
+	
 	.logo-box-menu {
 		position: absolute;
 		width: 302px;
@@ -40,18 +55,5 @@
 			width: 100%;
 		}
 		
-	.right-box-menu {
-		display: flex;
-		justify-content: space-between;
-		list-style-type: none;
-		width: 290px;
-		height: 33px;
-		left: 894px;
-		right: 256px;
-		top: 73px;
-		align-items: flex-end;
-		margin: 0;
-
-	}
-
+	
 }	
