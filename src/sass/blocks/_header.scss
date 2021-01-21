@@ -1,0 +1,142 @@
+.header {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 1440px;
+	height: 210px;
+
+
+	&__logo {
+		width: 302px;
+		height: 209px;
+		left: 569px;
+		padding-top: 5px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+		}
+	}
+
+	&__icon {
+		width: 40px;
+		height: 40px;
+		display: block;
+		position: absolute;
+		margin-right: 170px;
+		margin-left: 1210px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+.left_menu {
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		list-style-type: none;
+		width: 400px;
+		height: 33px;
+		left: 158px;
+		top: 73px;
+
+		&__link {
+			font-size: 28px;
+			text-align: center;
+			color: black;
+			a {
+				color: black;
+				text-transform: uppercase;
+			}
+
+			&:hover {
+				text-decoration: underline;
+				background: 2px solid #871818;
+			}
+		}
+
+		&__item {
+			justify-content: space-between;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-top: 300px;
+			width: 78px;
+			height: 33px;
+		}
+	}
+	.right_menu {
+		display: flex;
+		justify-content: space-between;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		position: absolute;
+		width: 290px;
+		height: 33px;
+		margin-left: 894px;
+		top:73px;
+		&__link {
+			color: black;
+			text-decoration: none;
+			font-size: 28px;
+			text-align: center;
+			&:hover {
+				background: 2px solid #871818;
+			}
+		}
+
+		&__item {
+			justify-content: space-between;
+			list-style-type: none;
+			// padding-left: 20px;
+			// padding-right: 20px;
+			margin-top: 300px;
+			width: 78px;
+			height: 33px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+// .menu {
+// 	position: absolute;
+// 	width: 1026px;
+// 	height: 209px;
+// 	left: 158px;
+// 	ul {
+// 		list-style: none; /*убираем маркеры списка*/
+// 		margin: 0; /*убираем отступы*/
+// 		padding-left: 0; /*убираем отступы*/
+// 		margin-top: 73px;
+// 	  }
+// 	  a {
+// 		text-decoration: none; /*убираем подчеркивание текста ссылок*/
+// 		color: white;
+// 		padding: 10px;
+	
+// 	  }
+// 	  a:hover {
+// 		  background: 2px solid #871818;
+// 	  }
+// 	  li {
+// 		float:left; /*Размещаем список горизонтально для реализации меню*/
+// 		margin-right:68px; /*Добавляем отступ у пунктов меню*/
+// 	  }
+
+
+// }
+
+
+
