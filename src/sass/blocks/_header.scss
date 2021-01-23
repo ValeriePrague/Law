@@ -1,6 +1,7 @@
 .header {
 	display: block;
 	text-align: center;
+	justify-content: space-between;
 	margin: 0 auto;
 	width: 1440px;
 	height: 210px;
@@ -19,18 +20,6 @@
 		}
 	}
 
-	&__icon {
-		width: 40px;
-		height: 40px;
-		display: block;
-		position: absolute;
-		margin-right: 170px;
-		margin-left: 1210px;
-		img {
-			width: 100%;
-			height: 100%;
-		}
-	}
 
 
 .left_menu {
@@ -39,26 +28,24 @@
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		list-style-type: none;
 		width: 400px;
 		height: 33px;
 		left: 158px;
 		top: 73px;
-
-		&__link {
-			font-size: 28px;
-			text-align: center;
+		list-style-type: none;
+		a {
+			text-decoration: none;
 			color: black;
-			a {
-				color: black;
-				text-transform: uppercase;
-			}
+			font-size: 24px;
+		&:hover {
+			color: #871818;
 
-			&:hover {
-				text-decoration: underline;
-				background: 2px solid #871818;
-			}
 		}
+		&:active {
+			background: 2x solid  #871818;
+	
+		}
+	}
 
 		&__item {
 			justify-content: space-between;
@@ -69,6 +56,7 @@
 			height: 33px;
 		}
 	}
+
 	.right_menu {
 		display: flex;
 		justify-content: space-between;
@@ -80,25 +68,36 @@
 		height: 33px;
 		margin-left: 894px;
 		top:73px;
-		&__link {
-			color: black;
+		a {
 			text-decoration: none;
-			font-size: 28px;
-			text-align: center;
-			&:hover {
-				background: 2px solid #871818;
-			}
+			color: black;
+			font-size: 24px;
+		&:hover {
+			color: #871818;
+
 		}
+	}
 
 		&__item {
 			justify-content: space-between;
 			list-style-type: none;
-			// padding-left: 20px;
-			// padding-right: 20px;
 			margin-top: 300px;
 			width: 78px;
 			height: 33px;
 		}
+
+	.icon {
+		top: 40px;
+		width: 30px;
+		height: 30px;
+		margin-left: 26px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	
+	}
 	}
 
 }
