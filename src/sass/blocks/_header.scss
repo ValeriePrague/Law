@@ -20,7 +20,27 @@
 		}
 	}
 
+	.sos {
+		text-align: center;
+		width: 30px;
+		height: 30px;
+		display: block;
+		margin-top: 69px;
+		margin-left: 1210px;
+		align-items: center;
 
+		&__icon {
+			width: 30px;
+			height: 30px;
+			left: 26px;
+
+			img {
+				height: 100%;
+				width: 100%;
+		}
+		}
+	
+	}
 
 .left_menu {
 		display: flex;
@@ -88,6 +108,8 @@
 
 	}
 
+}
+
 		&__item {
 			justify-content: space-between;
 			list-style-type: none;
@@ -96,72 +118,16 @@
 			height: 33px;
 		}
 
-	// .icon {
-		// top: 40px;
-		// width: 30px;
-		// height: 30px;
-		// cursor: pointer;
-		// background-color: transparent;
-
-
-	.icon {
-			top: 40px;
-			width: 30px;
-			height: 30px;
-			cursor: pointer;
-		img {
-			width: 100%;
-			height: 100%;
-		
-		}
-
-			&:hover {
-				box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-				-webkit-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-				-moz-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-			}
-		
-
-
-	}
-	}
+	
 
 }
 
-
-
-
-
-
-
-
-// .menu {
-// 	position: absolute;
-// 	width: 1026px;
-// 	height: 209px;
-// 	left: 158px;
-// 	ul {
-// 		list-style: none; /*убираем маркеры списка*/
-// 		margin: 0; /*убираем отступы*/
-// 		padding-left: 0; /*убираем отступы*/
-// 		margin-top: 73px;
-// 	  }
-// 	  a {
-// 		text-decoration: none; /*убираем подчеркивание текста ссылок*/
-// 		color: white;
-// 		padding: 10px;
-	
-// 	  }
-// 	  a:hover {
-// 		  background: 2px solid #871818;
-// 	  }
-// 	  li {
-// 		float:left; /*Размещаем список горизонтально для реализации меню*/
-// 		margin-right:68px; /*Добавляем отступ у пунктов меню*/
-// 	  }
-
-
-// }
+	// 		&:hover {
+	// 			box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+	// 			-webkit-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+	// 			-moz-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+	// 		}
+		
 
 
 
