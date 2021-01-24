@@ -37,6 +37,12 @@
 			img {
 				height: 100%;
 				width: 100%;
+				
+			&:hover {
+				box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+				-webkit-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+				-moz-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
+			}
 		}
 		}
 	
@@ -122,11 +128,6 @@
 
 }
 
-	// 		&:hover {
-	// 			box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-	// 			-webkit-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-	// 			-moz-box-shadow: -1px 2px 33px 0px rgba(135,24,24,0.3);
-	// 		}
 		
 
 
