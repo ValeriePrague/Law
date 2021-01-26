@@ -13,16 +13,29 @@ body {
 	height: 209px;
 }
 
-.sos {
-    width: 45px;
-	padding: 5px;
+.sos-hover {
+    position: relative;
 }
 
-.sos-hover:hover {
-    background-color: #871818;
-	border-radius: 50%;
-	// filter: blur(2px);
-	// opacity: 0.2;
+
+.sos {
+    padding: 5px;
+    clear: both;
+    position: absolute;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+}
+.filter{
+    width: 40px;
+    height: 40px;
+}
+
+.sos-hover:hover .filter{
+    filter: blur(2px);
+	background-color:#871818;
+	opacity: 0.5;
+    border-radius: 50%;
 }
 
 
